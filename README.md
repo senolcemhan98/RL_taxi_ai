@@ -22,3 +22,8 @@ Amaç : Taxi ile yolcuyu alıp arış noktasına iletmek.
 - mor  : Yolcunun ineceği nokta
 - sarı : Taksinin konumu. (Taksini içerisi boş)
 - yeşil: Taksinin konumu. (Yolcu taksinin içerisinde)
+
+# Ödüllendirme Sistemi (Reward):
+- Her yaptığın action için -1,
+- Yanlış yerde yolcu alma - bırakma eylemleri -10
+- Yolcu teslimi +20
